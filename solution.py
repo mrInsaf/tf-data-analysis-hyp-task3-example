@@ -3,7 +3,7 @@ import numpy as np
 from scipy.stats import t
 
 
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 816831722   # Ваш chat ID, не меняйте название переменной
 
 def solution(train, test) -> bool: # Одна или две выборке на входе, заполняется исходя из условия
     mean_train = np.mean(train.values)
